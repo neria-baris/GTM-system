@@ -1,0 +1,29 @@
+{
+  "business_as_of": "2026-09-13",
+  "canonical_model_version": "models_1.0.1",
+  "files": {
+    "belief_states.json": "8c45f4425a634b1921fb9048f06a8731d2eec4d1b4d7fa59192264f86c36f17d",
+    "evidence_summaries.json": "c1679b343148685dac93cf89c98f5e9d08a849ac1a00491dd237239de0df72d7",
+    "opportunities.json": "4b57e59a64896a198aed17f05dd73bec0503349a78ad98bafef6b95b43150ee7",
+    "opportunity_details.json": "03d0602335c764434f51b94baf619eb0300ab560889cd0c6111a76e02007983a",
+    "overview.json": "272ba38d42a350312273b0a9ccb837fd2d63f5d5954e9103ecd30c9ba5c6f65a",
+    "review_queue.json": "1cb4b40b4ac5f89a38aebaec265c83eea874cfec58b3291ff9e63dc85d926e5c",
+    "weekly_snapshots.json": "1218998e7255335528e70c4f00abc6dc05961f369849ff80c9f871234b8fb3ae"
+  },
+  "generated_at": "2026-10-12T15:11:15.562439+00:00",
+  "historical_knowledge_quality": "unavailable",
+  "knowledge_cutoff": "2026-09-13",
+  "revision_id": "6ba3c79652072a52c64288ef",
+  "schema_version": "presentation_v1",
+  "snapshot_id": "2026-09-13:6ba3c79652072a52c64288ef",
+  "source_run_ids": {
+    "a2": "0de52e78-25f8-41fc-a296-7e32292909cb",
+    "c": "002659a5446227d048e898ca"
+  },
+  "target": {
+    "amount_usd": "5000000",
+    "deadline": "2027-03-31",
+    "start": "2026-01-01"
+  },
+  "timezone": "UTC"
+}

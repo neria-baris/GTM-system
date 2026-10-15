@@ -1,0 +1,63 @@
+{
+  "policy_version": "routing_2.0.0",
+  "dataset_version": "frozen_v1",
+  "field_routes": {
+    "contract_kind": {
+      "route": "jev_single",
+      "threshold": 0.95,
+      "agreement_policy": null
+    },
+    "pilot_contract_status": {
+      "route": "rules",
+      "threshold": null,
+      "agreement_policy": null
+    },
+    "commercial_contract_status": {
+      "route": "review",
+      "threshold": null,
+      "agreement_policy": null
+    },
+    "blocker_state": {
+      "route": "jev_ensemble",
+      "threshold": 0.95,
+      "agreement_policy": "all_runs_top_label"
+    },
+    "next_step_strength": {
+      "route": "rules",
+      "threshold": null,
+      "agreement_policy": null
+    },
+    "buyer_involvement": {
+      "route": "rules",
+      "threshold": null,
+      "agreement_policy": null
+    },
+    "procurement_legal": {
+      "route": "rules",
+      "threshold": null,
+      "agreement_policy": null
+    },
+    "data_access": {
+      "route": "rules",
+      "threshold": null,
+      "agreement_policy": null
+    }
+  },
+  "commercial_signature_proposal_route": "jev_single",
+  "candidate_threshold": 0.95,
+  "commercial_signature_agreement_policy": "single_call",
+  "commercial_signature_auto_proposal_enabled": true,
+  "deployment_status": "research_only_pending_dual_human_adjudication",
+  "candidate_proposals_for_review": [],
+  "required_verification": "identified_signed_commercial_document_or_authorized_attestation_with_parties_scope_signature_date_amount_term_and_currency",
+  "verified_actual_usd_mutation_allowed": false,
+  "always_review": [
+    "reported commercial signature",
+    "signed ACV unknown",
+    "contract amendment",
+    "financially material identity merge or split",
+    "conflicting contract status"
+  ],
+  "unknown_policy": "abstain_and_route_if_material",
+  "limitations": "Provisional labels and one audit-reported commercial signature do not estimate generalization or calibrated accuracy. Repeated Jev calls do not imply statistical independence or improved calibration."
+}

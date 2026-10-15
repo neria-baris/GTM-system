@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gtm-tracker.example/schemas/presentation_v1.schema.json",
+  "title": "GTM Tracker presentation_v1 runtime file",
+  "oneOf": [
+    {"$ref": "#/$defs/manifest"},
+    {"$ref": "#/$defs/data_file"}
+  ],
+  "$defs": {
+    "money": {"type": ["string", "null"], "pattern": "^-?[0-9]+(\\.[0-9]+)?$"},
+    "historical_quality": {"enum": ["complete", "partial", "unavailable"]},
+    "manifest": {
+      "type": "object",
+      "required": ["schema_version", "snapshot_id", "revision_id", "generated_at", "business_as_of", "knowledge_cutoff", "timezone", "source_run_ids", "canonical_model_version", "target", "historical_knowledge_quality", "files"],
+      "properties": {
+        "schema_version": {"const": "presentation_v1"},
+        "snapshot_id": {"type": "string"},
+        "revision_id": {"type": "string"},
+        "generated_at": {"type": ["string", "null"]},
+        "business_as_of": {"type": "string", "format": "date"},
+        "knowledge_cutoff": {"type": "string", "format": "date"},
+        "timezone": {"type": "string", "minLength": 1},
+        "source_run_ids": {"type": "object"},
+        "canonical_model_version": {"type": "string"},
+        "target": {"type": "object", "required": ["amount_usd", "deadline"]},
+        "historical_knowledge_quality": {"$ref": "#/$defs/historical_quality"},
+        "files": {"type": "object", "minProperties": 6, "additionalProperties": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+      },
+      "additionalProperties": false
+    },
+    "data_file": {
+      "type": "object",
+      "required": ["schema_version", "kind", "data"],
+      "properties": {
+        "schema_version": {"const": "presentation_v1"},
+        "kind": {"enum": ["overview", "opportunities", "opportunity_details", "weekly_snapshots", "evidence_summaries", "review_queue", "belief_states"]},
+        "data": {"type": ["array", "object"]}
+      },
+      "additionalProperties": false
+    }
+  }
+}

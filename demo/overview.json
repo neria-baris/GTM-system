@@ -1,0 +1,50 @@
+{
+  "data": {
+    "counts": {
+      "lost": 0,
+      "opportunities": 2,
+      "reported_signature": 0,
+      "review": 350,
+      "signed_pilot": 1,
+      "stalled": 1,
+      "verified_signature": 0
+    },
+    "heuristic_proxy": {
+      "amount_usd": "0.00",
+      "label": "Model C progression sensitivity proxy; not a forecast or expected ACV",
+      "sensitivity_usd": [
+        "0.00",
+        "0.00"
+      ]
+    },
+    "journey_distribution": {
+      "pilot_signed": 1,
+      "unknown": 1
+    },
+    "known_value_open_commercial_pipeline_usd": "0",
+    "latest_weekly_movement": {
+      "count": 0,
+      "economics": [],
+      "journey": [],
+      "risk": []
+    },
+    "reported_signed_pending_unknown_amount_count": 0,
+    "reported_signed_pending_verification_usd": null,
+    "target": {
+      "amount_usd": "5000000",
+      "deadline": "2027-03-31",
+      "start": "2026-01-01"
+    },
+    "value_coverage": {
+      "fraction": 0.0,
+      "label": "known-value subset",
+      "largest_opportunity_share": null,
+      "open_opportunities": 2,
+      "unknown_value_count": 2,
+      "with_eligible_value": 0
+    },
+    "verified_signed_acv_usd": "0"
+  },
+  "kind": "overview",
+  "schema_version": "presentation_v1"
+}

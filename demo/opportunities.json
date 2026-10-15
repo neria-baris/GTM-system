@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "account_id": "93af16c7-27bd-5b3b-b34d-1200488ad69c",
+      "account_label": "Quorra Supply",
+      "blocker_state": "unknown",
+      "buyer_state": "unknown",
+      "commercial_scope_id": "78316768-9dd9-5060-abe5-a4cf3ec5efad",
+      "commercial_state": "unknown",
+      "data_access_state": "unknown",
+      "evidence_status": "unknown",
+      "furthest_evidenced_journey_milestone": null,
+      "known_open_commercial_value_usd": null,
+      "last_meaningful_event": null,
+      "lifecycle": "open",
+      "main_issue": "provisional_scope_requires_identity_review",
+      "momentum": "unknown",
+      "next_step_state": "unknown",
+      "opportunity_id": "19069eb5-e418-5e1b-af06-8f16c9be4abf",
+      "pilot_state": "unknown",
+      "procurement_legal_state": "unknown",
+      "readiness_band": "early",
+      "reported_signed_pending_verification_usd": null,
+      "review_flag": true,
+      "review_status": "open",
+      "scope_label": "Pilot scope is described; no fee or commercial terms stated",
+      "technical_state": "unknown",
+      "use_case_label": "Shadow-mode planning pilot on 500 SKUs",
+      "value_status": "ambiguous_scope_or_identity",
+      "verified_actual_usd": "0"
+    },
+    {
+      "account_id": "9e3b6a8d-a8bb-5248-99af-970bba1ca556",
+      "account_label": "Rhona Transport",
+      "blocker_state": "unknown",
+      "buyer_state": "unknown",
+      "commercial_scope_id": "1a4478ab-4b36-52a7-94c4-45e11cde9aab",
+      "commercial_state": "unknown",
+      "data_access_state": "unknown",
+      "evidence_status": "available",
+      "furthest_evidenced_journey_milestone": "pilot_signed",
+      "known_open_commercial_value_usd": null,
+      "last_meaningful_event": {
+        "event_date": "2026-05-22",
+        "event_id": "6b5f0f90-fe09-57a2-8ca9-aadbcaebf501",
+        "event_type": "pilot_signed",
+        "evidence_ids": [
+          "855f64c9-a315-5f86-bd3c-a46cb4a180d7",
+          "a0eea2e5-5dd6-52dd-b9b3-ec9dac4e0069"
+        ],
+        "verification": "unverified"
+      },
+      "lifecycle": "stalled",
+      "main_issue": "provisional_scope_requires_identity_review",
+      "momentum": "stalled_by_rule",
+      "next_step_state": "unknown",
+      "opportunity_id": "1af1890d-c797-5859-863c-3870ebec06f5",
+      "pilot_state": "signed_reported",
+      "procurement_legal_state": "unknown",
+      "readiness_band": "pilot_committed",
+      "reported_signed_pending_verification_usd": null,
+      "review_flag": true,
+      "review_status": "open",
+      "scope_label": "Pilot covering a 3-warehouse cluster for 16 weeks; €95k stated.",
+      "technical_state": "unknown",
+      "use_case_label": "Distribution network pilot; the stated success criterion concerns inventory turns improvement in shadow mode with reversible transfer orders.",
+      "value_status": "ambiguous_scope_or_identity",
+      "verified_actual_usd": "0"
+    }
+  ],
+  "kind": "opportunities",
+  "schema_version": "presentation_v1"
+}

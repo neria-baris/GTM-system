@@ -1,0 +1,39 @@
+{
+  "_comment": "Organisation settings. Values below match the bundled synthetic sample (seller 'Vendora'); replace them with your own before a live run.",
+  "product_name": "GTM Tracker",
+  "seller": {
+    "name": "Vendora",
+    "aliases": []
+  },
+  "goal": {
+    "amount_usd": "5000000",
+    "start": "2026-01-01",
+    "deadline": "2027-03-31"
+  },
+  "business_as_of": "2026-09-13",
+  "timezone": "UTC",
+  "fx_to_usd": {
+    "USD": "1",
+    "EUR": "1.12",
+    "GBP": "1.32",
+    "JPY": "0.0067"
+  },
+  "source_baseline": {
+    "_comment": "Optional reconciliation baseline for the sources. Set to null to skip count reconciliation.",
+    "notion_meeting_notes": 111,
+    "notion_structured_date": 107,
+    "notion_meeting_type": 24,
+    "notion_sample_page_ids": [
+      "ef7275a3be2382b4844b0161250d9b77",
+      "867275a3be2382bf9d3d017640f07ff5",
+      "4b2275a3be23833e95ac8182ddeebc9c"
+    ],
+    "notion_target_page_id": "db0275a3be2383c1a318016405f7ee00",
+    "airtable": {
+      "companies": 66,
+      "contacts": 187,
+      "deals": 5,
+      "activities": 0
+    }
+  }
+}

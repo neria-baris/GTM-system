@@ -1,0 +1,1044 @@
+{
+  "dataset_version": "frozen_v1",
+  "label_status": "provisional_audit_derived_not_dual_annotated",
+  "knowledge_cutoff": "2026-09-13",
+  "guideline_version": "operational_spec_1.0",
+  "rows": [
+    {
+      "id": "frostline_interest",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "176275a3be2382b39ba101d3f30de393",
+        "url": "https://app.notion.com/p/176275a3be2382b39ba101d3f30de393?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 8889,
+        "end": 9146,
+        "exact_text": "- expiry write-offs stuck ~1.4% - Juhani says this costs them real money\n- Setup: ERP with fixed reorder schedules\n- seasonal vaccines with spiky demand\n- Keen - wants the benchmark result on their data\n- Next: send one-pager, book scoping w/ Juhani's team\n"
+      },
+      "text": "- expiry write-offs stuck ~1.4% - Juhani says this costs them real money\n- Setup: ERP with fixed reorder schedules\n- seasonal vaccines with spiky demand\n- Keen - wants the benchmark result on their data\n- Next: send one-pager, book scoping w/ Juhani's team",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "seller_plan",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "frostline_pilot_signed",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "ef7275a3be2382b4844b0161250d9b77",
+        "url": "https://app.notion.com/p/ef7275a3be2382b4844b0161250d9b77?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 11835,
+        "end": 12009,
+        "exact_text": "- Pilot signed: €115k, 11 weeks\n- Scope: one distribution centre\n- Success = write-off reduction in shadow mode, zero violations of 'no stock shipped past its expiry window'\n"
+      },
+      "text": "- Pilot signed: €115k, 11 weeks\n- Scope: one distribution centre\n- Success = write-off reduction in shadow mode, zero violations of 'no stock shipped past its expiry window'",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "signed",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "frostlines_technical",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "dff275a3be238253ae57011349adc7a2",
+        "url": "https://app.notion.com/p/dff275a3be238253ae57011349adc7a2?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 43388,
+        "end": 43535,
+        "exact_text": "- (call on 13/05)\n- Results: 14% fewer expiry write-offs, no constraint violations\n- Steering committee: go to commercial\n- ACV discussed €580k/yr\n"
+      },
+      "text": "- (call on 13/05)\n- Results: 14% fewer expiry write-offs, no constraint violations\n- Steering committee: go to commercial\n- ACV discussed €580k/yr",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "frostline_commercial_report",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "09b275a3be238224aeb7813f30635247",
+        "url": "https://app.notion.com/p/09b275a3be238224aeb7813f30635247?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 42679,
+        "end": 42767,
+        "exact_text": "- (call on 16/05)\n- SIGNED. €580k/yr, 2-yr term\n- Rollout one distribution centre first\n"
+      },
+      "text": "- (call on 16/05)\n- SIGNED. €580k/yr, 2-yr term\n- Rollout one distribution centre first",
+      "labels": {
+        "contract_kind": "commercial",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "signed",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "norvane_lost",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "edc275a3be2383b6890981b628e70aa6",
+        "url": "https://app.notion.com/p/edc275a3be2383b6890981b628e70aa6?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 34107,
+        "end": 34198,
+        "exact_text": "- Lost - building in-house with their data science team\n- Juhani open to revisit next year\n"
+      },
+      "text": "- Lost - building in-house with their data science team\n- Juhani open to revisit next year",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "tagus_verbal",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "5b5275a3be23834e861f814870eacca5",
+        "url": "https://app.notion.com/p/5b5275a3be23834e861f814870eacca5?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 23696,
+        "end": 23908,
+        "exact_text": "- Data: POS sales history\n- Pilot scope: one product family, shadow mode\n- promotions break the heuristics\n- Budget: pilot ~€150k, rollout maybe €770k/yr if it works\n- Verbal yes to paid pilot, SOW being drafted\n"
+      },
+      "text": "- Data: POS sales history\n- Pilot scope: one product family, shadow mode\n- promotions break the heuristics\n- Budget: pilot ~€150k, rollout maybe €770k/yr if it works\n- Verbal yes to paid pilot, SOW being drafted",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "verbal_yes",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "tagus_mixed",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "415275a3be2382e29f6f813451adca47",
+        "url": "https://app.notion.com/p/415275a3be2382e29f6f813451adca47?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 32185,
+        "end": 32236,
+        "exact_text": "- Results mixed (1%)\n- Rollout budget not approved\n"
+      },
+      "text": "- Results mixed (1%)\n- Rollout budget not approved",
+      "labels": {
+        "contract_kind": "commercial",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "not_signed",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "rhodope_pilot_signed",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "c4c275a3be238328b35b01ff71f53b1d",
+        "url": "https://app.notion.com/p/c4c275a3be238328b35b01ff71f53b1d?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 27937,
+        "end": 28122,
+        "exact_text": "- Pilot signed: €95k, 16 weeks\n- Scope: 3-warehouse cluster\n- Success = inventory turns improvement in shadow mode, zero violations of 'every transfer order reversible before dispatch'\n"
+      },
+      "text": "- Pilot signed: €95k, 16 weeks\n- Scope: 3-warehouse cluster\n- Success = inventory turns improvement in shadow mode, zero violations of 'every transfer order reversible before dispatch'",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "signed",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "rt_value_revision",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "8e7275a3be238389bfdb8194b20208d6",
+        "url": "https://app.notion.com/p/8e7275a3be238389bfdb8194b20208d6?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 32818,
+        "end": 32937,
+        "exact_text": "- Jonas: budget pressure, rollout scoped down to shadow-mode planning on 500 SKUs\n- realistic full value now ~$220k/yr\n"
+      },
+      "text": "- Jonas: budget pressure, rollout scoped down to shadow-mode planning on 500 SKUs\n- realistic full value now ~$220k/yr",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "wisla_pilot_signed",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "867275a3be2382bf9d3d017640f07ff5",
+        "url": "https://app.notion.com/p/867275a3be2382bf9d3d017640f07ff5?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 38520,
+        "end": 38697,
+        "exact_text": "- Pilot signed: €135k, 10 weeks\n- Scope: shadow-mode planning on 500 SKUs\n- Success = inventory turns improvement in shadow mode, zero violations of 'fill rate never below SLA'\n"
+      },
+      "text": "- Pilot signed: €135k, 10 weeks\n- Scope: shadow-mode planning on 500 SKUs\n- Success = inventory turns improvement in shadow mode, zero violations of 'fill rate never below SLA'",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "signed",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "wt_commercial_unsigned",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "622275a3be2383f98c5301c75d72b221",
+        "url": "https://app.notion.com/p/622275a3be2383f98c5301c75d72b221?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 42388,
+        "end": 42533,
+        "exact_text": "- Contract NOT signed yet - still with their procurement/legal\n- they want to extend pilot ~6 weeks\n- pricing not agreed, pushback on annual fee\n"
+      },
+      "text": "- Contract NOT signed yet - still with their procurement/legal\n- they want to extend pilot ~6 weeks\n- pricing not agreed, pushback on annual fee",
+      "labels": {
+        "contract_kind": "commercial",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "not_signed",
+        "blocker_state": "open",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "in_progress",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "kestrel_estimate",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "98a275a3be23829f902e0107aa75370a",
+        "url": "https://app.notion.com/p/98a275a3be23829f902e0107aa75370a?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 40683,
+        "end": 40884,
+        "exact_text": "- Hard constraint: no order to a supplier outside the approved list\n- Pilot scope: bakery and deli\n- delivery schedule coupling with ordering\n- Budget: pilot ~$185k, rollout maybe $960k/yr if it works\n"
+      },
+      "text": "- Hard constraint: no order to a supplier outside the approved list\n- Pilot scope: bakery and deli\n- delivery schedule coupling with ordering\n- Budget: pilot ~$185k, rollout maybe $960k/yr if it works",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "hanbit_future",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "ab6275a3be2383a3bde1810caea42602",
+        "url": "https://app.notion.com/p/ab6275a3be2383a3bde1810caea42602?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 39364,
+        "end": 39465,
+        "exact_text": "- They want to extend to a second region if pilot works\n- Ji-woo's number for full rollout ~€2.2M/yr\n"
+      },
+      "text": "- They want to extend to a second region if pilot works\n- Ji-woo's number for full rollout ~€2.2M/yr",
+      "labels": {
+        "contract_kind": "commercial",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "hanbit_verbal",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "4b2275a3be23833e95ac8182ddeebc9c",
+        "url": "https://app.notion.com/p/4b2275a3be23833e95ac8182ddeebc9c?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 41999,
+        "end": 42250,
+        "exact_text": "- Hard constraint: shelf-life limits on fresh lines are hard constraints\n- Pilot scope: dairy category\n- delivery schedule coupling with ordering\n- Budget: pilot ~$300k, rollout maybe $1.3M/yr if it works\n- Verbal yes to paid pilot, SOW being drafted\n"
+      },
+      "text": "- Hard constraint: shelf-life limits on fresh lines are hard constraints\n- Pilot scope: dairy category\n- delivery schedule coupling with ordering\n- Budget: pilot ~$300k, rollout maybe $1.3M/yr if it works\n- Verbal yes to paid pilot, SOW being drafted",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "verbal_yes",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "kaveri_data_named",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "ae6275a3be2382a4a1648129ac854a97",
+        "url": "https://app.notion.com/p/ae6275a3be2382a4a1648129ac854a97?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 41031,
+        "end": 41151,
+        "exact_text": "- Data: POS sales history\n- Pilot scope: dairy category\n- want to see the benchmark result extended to fresh categories\n"
+      },
+      "text": "- Data: POS sales history\n- Pilot scope: dairy category\n- want to see the benchmark result extended to fresh categories",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "prairie_pilot_signed",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "7a8275a3be2383fda89d813a7e68250f",
+        "url": "https://app.notion.com/p/7a8275a3be2383fda89d813a7e68250f?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 38117,
+        "end": 38316,
+        "exact_text": "- Pilot signed: $175k, 16 weeks\n- Scope: shadow-mode planning on 500 SKUs\n- Success = inventory turns improvement in shadow mode, zero violations of 'every transfer order reversible before dispatch'\n"
+      },
+      "text": "- Pilot signed: $175k, 16 weeks\n- Scope: shadow-mode planning on 500 SKUs\n- Success = inventory turns improvement in shadow mode, zero violations of 'every transfer order reversible before dispatch'",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "signed",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "arkaden_lost_blocked",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "fba275a3be2383b5b06e811c07173834",
+        "url": "https://app.notion.com/p/fba275a3be2383b5b06e811c07173834?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 14685,
+        "end": 14771,
+        "exact_text": "- Lost - security review blocked data leaving site\n- Helena open to revisit next year\n"
+      },
+      "text": "- Lost - security review blocked data leaving site\n- Helena open to revisit next year",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "open",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "access_blocked"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "solmar_stalled",
+      "origin": "audit_selected",
+      "source_ref": {
+        "system": "notion_audit_evidence",
+        "native_id": "fd1275a3be2382388a160158f54b4502",
+        "url": "https://app.notion.com/p/fd1275a3be2382388a160158f54b4502?pvs=204"
+      },
+      "source_path": "context/audit_evidence.md",
+      "source_hash_sha256": "1d92d0279ea567ec78509f0650c5c150549e23c8ab6e9815f0d639fca973b359",
+      "source_span": {
+        "start": 34349,
+        "end": 34451,
+        "exact_text": "- Short call, distracted\n- still waiting on data access, no reply to last 2 emails\n- chase in 2 weeks\n"
+      },
+      "text": "- Short call, distracted\n- still waiting on data access, no reply to last 2 emails\n- chase in 2 weeks",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "open",
+        "next_step_strength": "seller_plan",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "held_out"
+    },
+    {
+      "id": "pilot_not_commercial",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "pilot_not_commercial"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 84,
+        "exact_text": "Pilot signed: €135k. Commercial contract NOT signed yet; legal is reviewing pricing."
+      },
+      "text": "Pilot signed: €135k. Commercial contract NOT signed yet; legal is reviewing pricing.",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "signed",
+        "commercial_contract_status": "not_signed",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "in_progress",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "commercial_negation",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "commercial_negation"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 85,
+        "exact_text": "The commercial deployment contract was NOT signed. The parties are still negotiating."
+      },
+      "text": "The commercial deployment contract was NOT signed. The parties are still negotiating.",
+      "labels": {
+        "contract_kind": "commercial",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "not_signed",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "verbal_yes",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "verbal_yes"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 58,
+        "exact_text": "Buyer gave a verbal yes to a paid pilot; no signature yet."
+      },
+      "text": "Buyer gave a verbal yes to a paid pilot; no signature yet.",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "verbal_yes",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "sow_drafting",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "sow_drafting"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 52,
+        "exact_text": "Commercial SOW is being drafted, not sent or signed."
+      },
+      "text": "Commercial SOW is being drafted, not sent or signed.",
+      "labels": {
+        "contract_kind": "commercial",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "proposal_or_terms",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "conditional_value",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "conditional_value"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 91,
+        "exact_text": "If the pilot works, a commercial rollout could be worth $1.3M per year. No contract signed."
+      },
+      "text": "If the pilot works, a commercial rollout could be worth $1.3M per year. No contract signed.",
+      "labels": {
+        "contract_kind": "commercial",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "not_signed",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "ai_probability",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "ai_probability"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 109,
+        "exact_text": "AI sync estimates a 92% chance of signing a commercial contract next quarter. This is an internal prediction."
+      },
+      "text": "AI sync estimates a 92% chance of signing a commercial contract next quarter. This is an internal prediction.",
+      "labels": {
+        "contract_kind": "commercial",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "unsent_draft_email",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "unsent_draft_email"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 91,
+        "exact_text": "Draft outreach email, not sent: Dear buyer, thank you for signing our commercial agreement."
+      },
+      "text": "Draft outreach email, not sent: Dear buyer, thank you for signing our commercial agreement.",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "repeated_template",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "repeated_template"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 103,
+        "exact_text": "Template copied from prior account: 'Pilot signed: €115k'. No evidence this account has signed a pilot."
+      },
+      "text": "Template copied from prior account: 'Pilot signed: €115k'. No evidence this account has signed a pilot.",
+      "labels": {
+        "contract_kind": "pilot",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "ambiguous_alias",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "ambiguous_alias"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 77,
+        "exact_text": "WT called Juhani. Account could be Westra or another WT; no contract discussed."
+      },
+      "text": "WT called Juhani. Account could be Westra or another WT; no contract discussed.",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "value_revision",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "value_revision"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 98,
+        "exact_text": "Prior rollout estimate €400k/yr revised to ~$220k/yr. This is an estimate, not a signed agreement."
+      },
+      "text": "Prior rollout estimate €400k/yr revised to ~$220k/yr. This is an estimate, not a signed agreement.",
+      "labels": {
+        "contract_kind": "commercial",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "not_signed",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "data_named",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "data_named"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 93,
+        "exact_text": "Data: 18 months of lot moves. This names desired data; receipt and access were not confirmed."
+      },
+      "text": "Data: 18 months of lot moves. This names desired data; receipt and access were not confirmed.",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "data_received",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "data_received"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 68,
+        "exact_text": "Buyer uploaded 18 months of lot moves to our secure workspace today."
+      },
+      "text": "Buyer uploaded 18 months of lot moves to our secure workspace today.",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "provided_or_access_granted"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "blocker_open",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "blocker_open"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 62,
+        "exact_text": "Security review blocked data access; the blocker remains open."
+      },
+      "text": "Security review blocked data access; the blocker remains open.",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "open",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "access_blocked"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "blocker_resolved",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "blocker_resolved"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 67,
+        "exact_text": "Security approved access today; the prior data blocker is resolved."
+      },
+      "text": "Security approved access today; the prior data blocker is resolved.",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "resolved",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "approved",
+        "data_access": "provided_or_access_granted"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "stalled_not_lost",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "stalled_not_lost"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 78,
+        "exact_text": "No reply to our last two emails; the deal is stalled, with no buyer rejection."
+      },
+      "text": "No reply to our last two emails; the deal is stalled, with no buyer rejection.",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "proposed_not_held",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "proposed_not_held"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 73,
+        "exact_text": "Next: propose a VP meeting on Friday. No meeting has been agreed or held."
+      },
+      "text": "Next: propose a VP meeting on Friday. No meeting has been agreed or held.",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "seller_plan",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "buyer_agreed",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "buyer_agreed"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 78,
+        "exact_text": "Buyer agreed to a follow-up meeting next week; date and owner still to be set."
+      },
+      "text": "Buyer agreed to a follow-up meeting next week; date and owner still to be set.",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "buyer_agreed",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "economic_buyer_met",
+      "origin": "synthetic_hard_negative",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "economic_buyer_met"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 63,
+        "exact_text": "The CFO, who owns the rollout budget, attended today's meeting."
+      },
+      "text": "The CFO, who owns the rollout budget, attended today's meeting.",
+      "labels": {
+        "contract_kind": "unclear",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "unclear",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "economic_buyer_identified_and_met",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    },
+    {
+      "id": "commercial_reported",
+      "origin": "synthetic_positive",
+      "source_ref": {
+        "system": "frozen_synthetic",
+        "native_id": "commercial_reported"
+      },
+      "source_path": null,
+      "source_hash_sha256": null,
+      "source_span": {
+        "coordinate_system": "synthetic_text",
+        "start": 0,
+        "end": 127,
+        "exact_text": "Vendora meeting note: both parties signed the commercial deployment agreement for one region today. Contract copy is not attached."
+      },
+      "text": "Vendora meeting note: both parties signed the commercial deployment agreement for one region today. Contract copy is not attached.",
+      "labels": {
+        "contract_kind": "commercial",
+        "pilot_contract_status": "unclear",
+        "commercial_contract_status": "signed",
+        "blocker_state": "unknown",
+        "next_step_strength": "unknown",
+        "buyer_involvement": "unknown",
+        "procurement_legal": "unknown",
+        "data_access": "unknown"
+      },
+      "split": "critical_held_out"
+    }
+  ]
+}

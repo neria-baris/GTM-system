@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local / tooling state
+.local/
+.claude/settings.local.json
+
+# Build output
+build/
+dist/
+*.spec
